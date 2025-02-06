@@ -1,0 +1,2 @@
+COMO RODAR O PROJETO BAIXADO 
+instalar

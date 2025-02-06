@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Votação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Votação</h1>
+  </header>
+  <main>
+    <section id="enquetes">
+      <h2>Enquetes Disponíveis</h2>
+      <div id="enquete-list" class="flex-container"></div>
+    </section>
+    <section id="votacao" style="display: none;">
+      <h2>Votação</h2>
+      <div id="enquete-detalhes"></div>
+      <button id="voltar">Voltar</button>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido com ❤ por você!</p>
+  </footer>
+
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
